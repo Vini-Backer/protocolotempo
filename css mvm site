@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<title>MVM</title>
+	<link rel="stylesheet" href="INICIO.css">
+</head>
+
+<style type="text/css">
+    .title{
+        background-color: yellowgreen;
+        color: black;
+        text-align: center;
+        padding: 15px 15px 50px;
+        font-size: 350%;
+        font-display:initial;
+        font-weight: 7em;
+        margin: 16px;
+    }
+
+    .subtitle{
+        background-color: steelblue;
+        color: black;
+        text-align: center;
+        padding: 1px 1px 5px;
+        font-size: 150%;
+        font-display:initial;
+        font-weight: 7em;
+        margin: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+</style>
+<body>
+    <header>
+	    <h2 class="title">MVM OFICIAL</h2>
+		<p class="subtitle">EU CRIO CÓDIGOS E UNS CONTEÚDOS</p>
+	</header>
+    <div class="container">
+	    <nav class="navbar">
+		     <ul>
+			     <li><a href="inicio" title="inicio">Inicio</a></li>
+				 <li><a href="fotos" title="fotos">Fotos</a></li>
+				 <li><a href="contato" title="contato">Contato</a></li>
+			 </ul>
+		</nav>
+		<main class="box">
+		    <h3>História</h3>
+			<p>Parte 1</p>
+		</main>
+        <section class="section-image">
+            <div type="img">
+                <img href="">
+            </div>
+        </section>            		 
+	</div>
+</body</>
+<footer>
+
+</footer>
+</html>
