@@ -1,1 +1,8 @@
-https://developers.arcgis.com/sign-up/
+Acesse: https://openweathermap.org/api 
+
+Insira o endereço como link em:
+<head>
+    <link> api.openweathermap.org/data/2.5/forecast/daily?lat=44.34&lon=10.99&cnt=7&appid={API key};
+</head>
+
+Acesse: My Apikeys e copie o código gerado na página e cole no arquivo JavaScript
