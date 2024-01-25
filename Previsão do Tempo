@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="climatempo.css">
+    <script src="teste.js" defer></script>
+    <title>Protocolo Clima</title>
+</head>
+<body>
+    <h1>PROTOCOLO CLIMA</h1>
+
+    <div class="container">
+        <div class="weather-input">
+            <h3>Digite o nome da cidade</h3>
+            <input class="city-input" type="text" placeholder="Ex: São Paulo, Brasília...">
+            <button class="search-btn">Pesquisar</button>
+            <div class="separator"></div>
+            <button class="location-btn">Localização Atual</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>_____________ ( _________ )</h2>
+                    <h6>Temperatura: ___° C</h6>
+                    <h6>Vento: ___ km/h</h6>
+                    <h6>Humidade: ___%</h6>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>Previsão do Dia</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp: __° C</h4>
+                        <h4>Vento: __ km/h</h4>
+                        <h4>Humidade: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp: __° C</h4>
+                        <h4>Vento: __ km/h</h4>
+                        <h4>Humidade: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp: __° C</h4>
+                        <h4>Vento: __ km/h</h4>
+                        <h4>Humidade: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp: __° C</h4>
+                        <h4>Vento: __ km/h</h4>
+                        <h4>Humidade: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp: __° C</h4>
+                        <h4>Vento: __ km/h</h4>
+                        <h4>Humidade: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp: __° C</h4>
+                        <h4>Vento: __ km/h</h4>
+                        <h4>Humidade: __%</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
